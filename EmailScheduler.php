@@ -13,13 +13,11 @@ class EmailScheduler {
       // write code to fetch the emails  from database
       
       // Send the emails to receipent
-      $emailService.send_email(....)
+      $emailService.send_email_with_attachment(....)
       //Wait for interval
       sleep($interval);
     }
   }
-  function get_name() {
-    
-  }
+  
 }
 ?>
