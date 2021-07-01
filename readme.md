@@ -1,1 +1,7 @@
-This is a test file
+Steps to create the application
+
+1. Create a page where 2 field will be there Name and EmailId and save the record. this will contain both Javascript and php validation.
+2. On submitting the page, an email confirmation will be sent to a the mail id for verification with a verification link.
+3. User, should click on the link to activate the account.
+4. 
+
