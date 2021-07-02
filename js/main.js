@@ -8,7 +8,7 @@ $(document).ready(function() {
         dataType: 'jsonp', //for making cross domain call  
         success: function(data) {  
             alert('Success');  
-            $("#rss-default").append(data.feed);  
+            //$("#rss-default").append(data.feed);  
             console.log(data.feed.description);  
         }  
     });  
