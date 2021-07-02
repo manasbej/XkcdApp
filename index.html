@@ -13,6 +13,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
   </head>
 
   <body>
@@ -100,18 +101,7 @@
     <script type="text/javascript">
       // Code Sample  
 $(document).ready(function() {  
-    var url = 'http://www.recruiter.com/feed/career.xml'; //Data in XML format  
-                                  alert('Start');  
-    $.ajax({  
-        type: 'GET',  
-        url: url;//"https://api.rss2json.com/v1/api.json?rss_url=" + url, //For converting default format to JSON format  
-        dataType: 'jsonp', //for making cross domain call  
-        success: function(data) {  
-            alert('Success');  
-            $("#rss-default").append(data.feed);  
-            console.log(data.feed.description);  
-        }  
-    });  
+    alert('test');
 });  
                                    </script>
   </body>
