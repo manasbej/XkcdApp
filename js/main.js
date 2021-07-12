@@ -1,6 +1,6 @@
 // Code Sample  
 $(document).ready(function() {  
-    var url = 'http://www.recruiter.com/feed/career.xml'; //Data in XML format  
+    var url = 'https://xkcd.com/rss.xml'; // 'http://www.recruiter.com/feed/career.xml'; //Data in XML format  
     
     $.ajax({  
         type: 'GET',  
