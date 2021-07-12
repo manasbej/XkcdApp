@@ -10,7 +10,7 @@ $(document).ready(function() {
             //alert('Success');  
             //$("#rss-default").append(data.feed);  
             //console.log(data.feed.description);  
-            console.log(data.feed);  
+            console.log(data.feed.items);  
         }  
     });  
 });  
